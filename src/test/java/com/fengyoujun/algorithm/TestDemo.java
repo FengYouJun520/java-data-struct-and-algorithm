@@ -13,6 +13,8 @@ public class TestDemo {
     @BeforeAll
     static void beforeAll() {
         System.out.println("before all...");
+        System.out.println("before a...");
+        System.out.println("before all...");
     }
 
     @Test
